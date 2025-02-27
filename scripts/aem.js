@@ -52,7 +52,7 @@ function sampleRUM(checkpoint, data) {
           }
           return errData;
         };
-
+ conte
         window.addEventListener('error', ({ error }) => {
           const errData = dataFromErrorObj(error);
           sampleRUM('error', errData);
