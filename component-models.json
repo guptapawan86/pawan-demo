@@ -162,7 +162,7 @@
         "component": "custom-asset-namespace:custom-asset",
         "name": "image",
         "label": "Image",
-        "configUrl": "https://main--pawan-demo--guptapawan86.aem.page/tools/assets-selector/image.config.json",
+        "configUrl": "https://main--pawan-demo--guptapawan86.aem.page/tools/asset-selector/image.config.json",
         "valueType": "string"
       },
       {
