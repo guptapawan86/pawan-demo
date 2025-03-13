@@ -1,49 +1,31 @@
 {
-  "repoNames": [
-    "delivery-p88906-e783463.adobeaemcloud.com"
-  ],
-  "aemTierType": [
-    "delivery"
-  ],
-  "expiryOptions": {
-    "allowSelectionAndDrag": false
-  },
+  "repoNames": ["delivery-p88906-e783463.adobeaemcloud.com","author-p88906-e783463.adobeaemcloud.com"],
+  "aemTierType":["delivery","author"],
+  "apiKey": "aem-assets-frontend-1",
   "filterSchema": [
     {
       "fields": [
         {
-          "defaultValue": ["image/*"],
           "element": "checkbox",
           "name": "type",
+          "defaultValue": ["image/*", "video/*"],
           "options": [
             {
               "label": "Image",
-              "readOnly": true,
-              "value": "image/*"
-            }
-          ]
-        }
-      ],
-      "groupKey": "FileTypeGroup",
-      "header": "File Type"
-    },
-    {
-      "fields": [
-        {
-          "columns": 3,
-          "defaultValue": ["arena"],
-          "element": "taggroup",
-          "name": "property=xcm:keywords.id=",
-          "options": [
+              "value": "image/*",
+              "readOnly": true
+            },
             {
-              "label": "Demo",
-              "value": "demo"
+              "label": "Video",
+              "value": "video/*",
+              "readOnly": true
             }
-          ]
+          ],
+          "orientation": "horizontal"
         }
       ],
-      "groupKey": "AssetTagsGroup",
-      "header": "Assets Tags"
+      "header": "File Type",
+      "groupKey": "FileTypeGroup"
     }
   ]
 }
