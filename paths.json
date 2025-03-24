@@ -3,7 +3,7 @@
     "/content/pawan-demo/index/:/",
     "/content/pawan-demo/configuration:/.helix/config.json",
     "/content/pawan-demo/metadata:/metadata.json",
-    "/content/pawan-demo/headers:/headers.json"
+    "/content/pawan-demo/headers:/.helix/headers.json"
   ],
   "includes": [
     "/content/pawan-demo/"
