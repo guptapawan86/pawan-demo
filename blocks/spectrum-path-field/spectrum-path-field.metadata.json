@@ -1,0 +1,42 @@
+{
+  "name": "Spectrum Path Field",
+  "description": "A path field component following Adobe Spectrum design guidelines with path picker functionality",
+  "version": "1.0.0",
+  "categories": ["Form", "Input"],
+  "dependencies": {
+    "spectrum-css": "^3.0.0"
+  },
+  "properties": {
+    "label": {
+      "type": "string",
+      "description": "Label text for the path field",
+      "default": "Path"
+    },
+    "helpText": {
+      "type": "string",
+      "description": "Help text to display below the field",
+      "default": ""
+    },
+    "required": {
+      "type": "boolean",
+      "description": "Whether the field is required",
+      "default": false
+    },
+    "disabled": {
+      "type": "boolean",
+      "description": "Whether the field is disabled",
+      "default": false
+    },
+    "readOnly": {
+      "type": "boolean",
+      "description": "Whether the field is read-only",
+      "default": false
+    },
+    "validationState": {
+      "type": "string",
+      "description": "Validation state of the field (valid, invalid, or empty)",
+      "enum": ["valid", "invalid", ""],
+      "default": ""
+    }
+  }
+} 

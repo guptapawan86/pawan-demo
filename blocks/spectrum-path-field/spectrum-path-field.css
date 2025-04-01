@@ -1,0 +1,110 @@
+.spectrum-path-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.spectrum-field-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--spectrum-global-color-gray-700);
+  line-height: 1.3;
+}
+
+.spectrum-field-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.spectrum-field-input {
+  width: 100%;
+  height: 32px;
+  padding: 0 12px;
+  border: 1px solid var(--spectrum-global-color-gray-300);
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.3;
+  color: var(--spectrum-global-color-gray-900);
+  background-color: var(--spectrum-global-color-gray-50);
+  transition: border-color 0.2s ease-in-out;
+}
+
+.spectrum-field-input:hover {
+  border-color: var(--spectrum-global-color-gray-400);
+}
+
+.spectrum-field-input:focus {
+  outline: none;
+  border-color: var(--spectrum-global-color-blue-500);
+  box-shadow: 0 0 0 2px var(--spectrum-global-color-blue-200);
+}
+
+.spectrum-field-input:disabled {
+  background-color: var(--spectrum-global-color-gray-100);
+  border-color: var(--spectrum-global-color-gray-300);
+  color: var(--spectrum-global-color-gray-500);
+  cursor: not-allowed;
+}
+
+.spectrum-field-picker-button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--spectrum-global-color-gray-600);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.spectrum-field-picker-button:hover {
+  background-color: var(--spectrum-global-color-gray-200);
+}
+
+.spectrum-field-picker-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--spectrum-global-color-blue-200);
+}
+
+.spectrum-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.spectrum-field-help {
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--spectrum-global-color-gray-600);
+  margin-top: 4px;
+}
+
+/* Error state */
+.spectrum-field-input.is-invalid {
+  border-color: var(--spectrum-global-color-red-500);
+}
+
+.spectrum-field-input.is-invalid:focus {
+  box-shadow: 0 0 0 2px var(--spectrum-global-color-red-200);
+}
+
+/* Success state */
+.spectrum-field-input.is-valid {
+  border-color: var(--spectrum-global-color-green-500);
+}
+
+.spectrum-field-input.is-valid:focus {
+  box-shadow: 0 0 0 2px var(--spectrum-global-color-green-200);
+} 
