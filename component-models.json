@@ -239,18 +239,60 @@
     "id": "quote",
     "fields": [
       {
-        "component": "richtext",
-        "name": "quote",
-        "value": "",
-        "label": "Quote",
+        "component": "text",
+        "name": "label",
+        "value": "Path",
+        "label": "Field Label",
         "valueType": "string"
       },
       {
         "component": "text",
+        "name": "helpText",
+        "value": "",
+        "label": "Help Text",
+        "valueType": "string"
+      },
+      {
+        "component": "checkbox",
+        "name": "required",
+        "value": false,
+        "label": "Required Field",
+        "valueType": "boolean"
+      },
+      {
+        "component": "checkbox",
+        "name": "disabled",
+        "value": false,
+        "label": "Disabled",
+        "valueType": "boolean"
+      },
+      {
+        "component": "checkbox",
+        "name": "readOnly",
+        "value": false,
+        "label": "Read Only",
+        "valueType": "boolean"
+      },
+      {
+        "component": "select",
+        "name": "validationState",
+        "value": "",
+        "label": "Validation State",
         "valueType": "string",
-        "name": "author",
-        "label": "Author",
-        "value": ""
+        "options": [
+          {
+            "value": "",
+            "label": "Default"
+          },
+          {
+            "value": "valid",
+            "label": "Valid"
+          },
+          {
+            "value": "invalid",
+            "label": "Invalid"
+          }
+        ]
       }
     ]
   }
