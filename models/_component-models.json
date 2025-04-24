@@ -16,5 +16,23 @@
   },
   {
     "...": "../blocks/*/_*.json#/models"
+  },
+  {
+    "id": "custom-asset",
+    "fields": [
+      {
+        "component": "custom-asset-namespace:custom-asset",
+        "name": "image",
+        "label": "Image",
+        "configUrl": "https://main--pawan-demo--guptapawan86.aem.live/tools/assets-selector/image.config.json",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "pawan alt Text ",
+        "valueType": "string"
+      }
+    ]
   }
 ]

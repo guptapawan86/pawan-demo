@@ -54,7 +54,8 @@
         "quote",
         "faqs",
         "custom-asset-one",
-        "spectrum-path-field"
+        "spectrum-path-field",
+        "custom-asset"
       ]
     }
   ]

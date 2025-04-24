@@ -1,26 +1,6 @@
 {
-  "repoNames": ["delivery-p88906-e783463.adobeaemcloud.com","author-p88906-e783463.adobeaemcloud.com"],
-  "aemTierType":["delivery","author"],
-  "apiKey": "aem-assets-frontend-1",
-  "filterSchema": [
-    {
-      "fields": [
-        {
-          "element": "checkbox",
-          "name": "type",
-          "defaultValue": ["image/*"],
-          "options": [
-            {
-              "label": "Image",
-              "value": "image/*",
-              "readOnly": true
-            }
-          ],
-          "orientation": "horizontal"
-        }
-      ],
-      "header": "File Type",
-      "groupKey": "FileTypeGroup"
-    }
-  ]
+  "aemTierType": [
+    "delivery"
+  ],
+  "repositoryId": "delivery-p88906-e783463.adobeaemcloud.com"
 }
