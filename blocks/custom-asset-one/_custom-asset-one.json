@@ -26,12 +26,6 @@
           "label": "Image",
           "configUrl": "https://raw.githubusercontent.com/guptapawan86/pawan-demo/refs/heads/main/tools/asset-selector/image.config.json",
           "valueType": "string"
-        },
-        {
-          "component": "text",
-          "name": "imageTitle",
-          "label": "Alt Text",
-          "valueType": "string"
         }
       ]
     }
