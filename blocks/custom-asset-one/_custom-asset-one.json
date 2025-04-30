@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "title": "Custom Image One",
+      "title": "Custom Image One final",
       "id": "custom-asset-one",
       "plugins": {
         "xwalk": {

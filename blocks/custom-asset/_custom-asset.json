@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "title": "Dynamic Media Image",
+      "title": "Dynamic Media Image Test",
       "id": "custom-asset",
       "plugins": {
         "xwalk": {
