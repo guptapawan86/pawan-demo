@@ -1,11 +1,9 @@
 {
   "repoNames": [
-    "author-p137117-e1400714.adobeaemcloud.com",
-    "delivery-p137117-e1400714.adobeaemcloud.com",
+    "delivery-p137117-e1400714.adobeaemcloud.com"
   ],
   "aemTierType": [
-    "delivery",
-    "author"
+    "delivery"
   ],
   "expiryOptions": {
     "allowSelectionAndDrag": false,
