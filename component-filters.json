@@ -20,7 +20,8 @@
       "faqs",
       "custom-asset-one",
       "spectrum-path-field",
-      "custom-asset"
+      "custom-asset",
+      "curated-cards"
     ]
   },
   {
@@ -42,6 +43,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "curated-cards",
+    "components": [
+      "curated-card"
     ]
   },
   {
