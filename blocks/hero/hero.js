@@ -1,4 +1,6 @@
 export default function decorate(block) {
   console.log("hellotest");
-  $(".hero-wrapper").remove();
+  const nav = document.getElementsByClassName('hero-wrapper');
+
+  nav.innerHTML = '';
 }
